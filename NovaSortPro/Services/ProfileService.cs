@@ -87,7 +87,7 @@ namespace NovaSortPro.Services
                     Id = reader.GetInt32(0),
                     Name = reader.GetString(1),
                     Description = reader.IsDBNull(2) ? string.Empty : reader.GetString(2),
-                    IsActive = true;
+                    IsActive = true
                 };
             }
             return null;
